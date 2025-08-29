@@ -45,7 +45,7 @@ for (const btn of callButtons) {
       const newEntry = document.createElement("div");
       newEntry.innerHTML += `<div class="flex justify-between gap-1 items-center p-2 bg-gray-100  rounded-lg mb-2">
       <div class="">
- <h1 class="font-bold text-lg">${name}</h1>
+        <h1 class="font-bold text-lg">${name}</h1>
         <p>${text}</p>
       </div>
       <div>
